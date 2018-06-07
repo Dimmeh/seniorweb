@@ -1,0 +1,58 @@
+// 20180517134636
+// https://www.seniorweb.nl/Content/webmanifest.json
+
+{
+  "name": "SeniorWeb",
+  "short_name": "SeniorWeb",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0E8B7A",
+  "dir": "ltr",
+  "lang": "nl-NL",
+  "orientation": "portrait-primary",
+  "description": "SeniorWeb maakt de digitale wereld leuker en makkelijker. Word lid en profiteer van onze begrijpelijke tips en persoonlijke computerhulp.",
+  "theme_color": "#0E8B7A",
+  "icons": [
+    {
+      "src": "https://www.seniorweb.nl/Content/Images/logo.svg",
+      "sizes": "48x48",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.seniorweb.nl/Content/Images/logo.svg",
+      "sizes": "72x72",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.seniorweb.nl/Content/Images/logo.svg",
+      "sizes": "96x96",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.seniorweb.nl/Content/Images/logo.svg",
+      "sizes": "144x144",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.seniorweb.nl/Content/Images/logo.svg",
+      "sizes": "168x168",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.seniorweb.nl/Content/Images/logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.seniorweb.nl/Content/Images/logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg"
+    },
+    {
+      "src": "https://www.seniorweb.nl/Content/Images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg"
+    }
+  ],
+  "prefer_related_applications": false
+}
