@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "Titillium";
+    src: url('fonts/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+    font-family: "TitilliumBold";
+    src: url("fonts/TitilliumWeb-SemiBold.ttf");
+}
+
+
+header.top .container-fluid,
+header.top .row,
+header.top .col-3,
+header.top .col-7,
+header.top .col-2{
+    height: 100%;
+}
+
+.searchIcon{
+    position: absolute;
+    z-index: 9;
+    top: -34px;
+    left: 10px;
+}
+
+#mainnav-wrapper{
+    min-height:30px;
+}
+
+*{
+    font-family: "Titillium", Verdana, sans-serif, Arial;
+}
+
+h1,h2,h3,h4,h5,h6,.mainnav{
+    font-family: "TitilliumBold", Verdana, sans-serif, Arial !important;
+}
+
+.btn.btn-link{
+    color: black!important;
+}
+
+.no-padding{
+    padding:0px!important;
+}
+
+.no-padding-left{
+    padding-left:0px!important;
+}
+
+.no-padding-top{
+    padding-top:0px!important;
+}
+
+.no-padding-right{
+    padding-right:0px!important;
+}
+
+.no-padding-bottom{
+    padding-bottom:0px!important;
+}
+
+.card-header{
+    background:white!important;
+}
+
+.toggleCard{
+    display: none;
+}
+
+.toggleCard.show{
+    display: block!important;
+}
+
+span.btn{
+    color: #fff;
+    /*background-color: #d46124!important;*/
+    /*border-color: #d46124!important;*/
+    float: right;
+}
+
+.tool-bar{
+    position: absolute;
+    right: -89px;
+    background: #FFFFFF;
+    width:auto;
+    border: 1px solid #e6e6e6;
+    cursor:pointer;
+}
+
+.tool-bar span.fontsize{
+    text-align: center;
+    display: inline-block;
+    padding:0px 15px;
+}
+
+.tool-bar span.fontsize p:first-child{
+    font-size: 22px;
+}
+
+.tool-bar span.fontsize p:last-child{
+    font-size: 13px;
+}
+
+.modal.large{
+    max-height: 100%;
+}
+
+.modal-dialog{
+    width:90%;
+    max-width: 90% !important;
+
+}
+.col-4.dummyCol{
+    display: none;
+}
+.container.slider{
+    background-color: #d9f0ed;
+}
+
+.container.slider .content{
+    background-color: #d9f0ed;
+    padding: 1em 4% 1em 1em;
+}
+
+.list-group{
+    /* position: absolute!important; */
+    top:0;
+}
+
+.fixed{
+    position: fixed!important;
+    top: 0;
+    z-index: 99;
+}
+
+@media (min-width: 1200px){
+    .container.slider {
+        max-width: 1200px;!important;
+    }
+}
+
+.footer{
+    position: relative!important;
+    z-index: 100;
+}
+
+.sideMenuItem.active{
+    background: #000;
+    color: white;
+}
+
+.containerMenu {
+    display: table-cell;
+    cursor: pointer;
+}
+
+#content .container{
+    padding:1em 2em;
+}
+
+#content .backgroundGreen{
+    background: #d9f0ed;
+    margin:0;
+}
+
+span.textMenu {
+    vertical-align: middle;
+    height: 100%;
+    display: table-cell;
+    width: 65px;
+    padding-right: 6px;
+    font-family: TitilliumBold;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: block;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.hamburgMenu{
+    background: #0e8b7a;
+    display: table;
+    margin-top: 39px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.check-icon{
+    margin-right:16px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+ul.list-group.list-group-flush{
+    margin-left: 0px!important;
+}
+
+.list-group-item{
+    padding:5px 0px !important;
+}
+
+#myList .list-group-item{
+    padding: 8px!important;
+    border:2px solid #0a665a!important;
+    border-right: none!important;
+    cursor: pointer;
+    text-align: center;
+}
+
+#myList .list-group-item.active{
+    background:#0a665a!important;
+    color: white!important;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child{
+    border-radius: 0!important;
+}
+
+#myList .list-group-item:last-child{
+    border-right:2px solid #0a665a!important;
+}
+
+.bd-example figure{
+    margin-bottom:0;
+}
+
+.bd-example img{
+    width:100%;
+    height:auto;
+}
+
+.list-group-item p{
+    display: inline-block;
+}
+
+.card, .card-header{
+    background:inherit!important;
+}
+
+.card-header{
+    border:none!important;
+}
+
+.add-padding{
+    padding: 0 40px !important;
+}
+
+.memberBtn{
+    width:100%;
+    margin-top:1em;
+}
+
+.memberBtn.orangeTrans{
+    border:2px solid #fa752b;
+    color: #fa752b!important;
+    background: white!important;
+}
+
+.memberButtons{
+    margin:1em;
+}
