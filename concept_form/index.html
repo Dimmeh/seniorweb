@@ -155,39 +155,187 @@
     </div>
 </nav>
 
-<section class="sectionSlider">
-    <div class="customContainer">
-        <h1>Voordelen lidmaatschap</h1>
-        <p class="addMarginOnP">Word voor slechts € 31,- per kalenderjaar (prijs 2018) lid van SeniorWeb en ontvang het boek Veilig en vertrouwd online cadeau.
-            Als lid profiteert u van de volgende voordelen</p>
-        <p><img class="check-icon" src="images/check-icon.png" alt=""> Ongelimiteerde vragen stellen via de pc, telefoon of aan huis</p>
-        <p><img class="check-icon" src="images/check-icon.png" alt="">4 x per jaar exclusieve informatie en tips Enter</p>
-        <p><img class="check-icon" src="images/check-icon.png" alt="">Cursussen over populaire onderwerpen (online & in de buurt)</p>
-        <p><img class="check-icon" src="images/check-icon.png" alt="">Wekelijks informatieve nieuwsbrieven</p>
-        <p><img class="check-icon" src="images/check-icon.png" alt="">Extra voordelige computerboeken en accessoires</p>
-        <p class="addMarginOnP"><img class="check-icon" src="images/check-icon.png" alt="">Deskundige controle van verdachte mails</p>
-        <div class="container-fluid memberButtons no-padding-left">
-            <button type="button" class="btn orange memberBtn">Word lid</button>
-            <button type="button" class="btn orangeTrans memberBtn">Gratis proefversie</button>
+<section id="content" class="no-padding">
+    <ul class="nav nav-tabs form-navigation" id="myTab" role="tablist">
+        <li class="nav-item" id="item-1" >
+            <p>Persoonlijke gegevens</p>
+            <a class="nav-link active" id="personal-tab" data-toggle="tab" href="#personalTab" role="tab" aria-controls="home" aria-selected="true">
+                <span class="circle"></span>
+            </a>
+            <span class="border-line right" id="stepOneRight"></span>
+        </li>
+        <li class="nav-item disabled" id="item-2">
+            <p>Adres gegevens</p>
+            <span class="border-line left" id="stepTwoLeft"></span>
+            <a class="nav-link disabled" id="address-tab" data-toggle="tab" href="#addressTab" role="tab" aria-controls="profile" aria-selected="false">
+                <span class="circle"></span>
+            </a>
+            <span class="border-line right" id="stepTwoRight"></span>
+        </li>
+        <li class="nav-item disabled" id="item-3">
+            <p>Contact gegevens</p>
+            <span class="border-line left" id="stepThreeLeft"></span>
+            <a class="nav-link disabled" id="contact-tab" data-toggle="tab" href="#contactTab" role="tab" aria-controls="contact" aria-selected="false"><span class="circle"></span></a>
+            <span class="border-line right" id="stepThreeRight"></span>
+        </li>
+        <li class="nav-item disabled" id="item-4">
+            <p>Betaalgegevens</p>
+            <span class="border-line left" id="stepFourLeft"></span>
+            <a class="nav-link disabled" id="payment-tab" data-toggle="tab" href="#paymentTab" role="tab" aria-controls="contact" aria-selected="false"><span class="circle"></span></a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="personalTab" role="tabpanel" aria-labelledby="personal-tab">
+            <form>
+                <div class="form-group">
+                    <label class="col">Aanhef</label>
+                    <div class="w-100"></div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-2">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Dhr.
+                                </label>
+                            </div>
+                            <div class="col-2">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Mevr.
+                                </label>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputSurname">Voornaamn</label>
+                    <input type="text" class="form-control" id="inputSurname">
+                </div>
+                <div class="form-group">
+                    <label for="inputInitials">Voorletters</label>
+                    <input type="text" class="form-control" id="inputInitials">
+                </div>
+                <div class="form-group">
+                    <label for="inputInsertion">Tussenvoegsel</label>
+                    <input type="text" class="form-control" id="inputInsertion">
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Achternaam</label>
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="form-group">
+                    <label for="birthOfDate">Geboortedatum</label>
+                    <input type="text" class="form-control" id="birthOfDate" placeHolder="Graag in DD-MM-JJJJ vermelden (Bijvoorbeeld: 14-03-1946)">
+                </div>
+                <div class="form-group text-right">
+                    <a class="orange btn" onclick="formContinue('step2')" >Volgende</a>
+                </div>
+            </form>
+        </div>
+        <div class="tab-pane fade" id="addressTab" role="tabpanel" aria-labelledby="address-tab">
+            <form>
+                <div class="form-group">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-8">
+                                <label for="inputAddress">Straatnaam</label>
+                                <input type="text" class="form-control" id="inputAddress">
+                            </div>
+                            <div class="col-4">
+                                <label for="inputAddressNumber">Huisnummer</label>
+                                <input type="text" class="form-control" id="inputAddressNumber">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4">
+                                <label for="inputZipcode">Postcode</label>
+                                <input type="text" class="form-control" id="inputZipcode">
+                            </div>
+                            <div class="col-8">
+                                <label for="inputCity">Plaatsnaam</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="inputCountry">Land</label>
+                                <input type="text" class="form-control" id="inputCountry">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group text-right">
+                    <a class="orange btn" onclick="formContinue('step3')" >Volgende</a>
+                </div>
+            </form>
+        </div>
+        <div class="tab-pane fade" id="contactTab" role="tabpanel" aria-labelledby="contact-tab">
+            <form>
+            <div class="form-group">
+                <label for="inputPhone">Telefoonnummer</label>
+                <input type="text" class="form-control" id="inputPhone">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">E-mailadres</label>
+                <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="form-group">
+                <label for="inputEmailRepeat">Herhaling e-mailadres</label>
+                <input type="text" class="form-control" id="inputEmailRepeat">
+            </div>
+            <div class="form-group text-right">
+                <a class="orange btn" onclick="formContinue('step4')" >Volgende</a>
+            </div>
+        </form>
+        </div>
+        <div class="tab-pane fade" id="paymentTab" role="tabpanel" aria-labelledby="payment-tab">
+            <form>
+                <div class="form-group">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios11" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Ik betaal € 31,- via een doorlopende SEPA-machtiging.
+                                </label>
+                            </div>
+                            <div class="col-12">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios21" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Ik betaal € 33,- via een acceptgiro.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group text-right">
+                    <a class="orange btn" onclick="formContinue('done')" >Meld u aan</a>
+                </div>
+            </form>
+        </div>
+        <div class="tab-pane fade text-center" id="doneTab" role="tabpanel" aria-labelledby="payment-tab">
+            <div class="form-group">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <i class="fas fa-check-square"></i>
+                            <p>Uw aanmelding is verstuurd.</p>
+                            <a class="btn orange" href="https://dimmeh.github.io/seniorweb/concept_three/home.html">Klik hier om terug te gaan naar startpagina</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-<section class="sectionSearch">
-    <h1>Waar bent u naar op zoek?</h1>
-    <figure>
-        <img src="images/searchField.png" alt="">
-    </figure>
-</section>
-<section class="sectionNews">
-    <figure>
-        <img src="images/newsItems.png" alt="">
-    </figure>
-</section>
-<section class="sectionTryVersion">
-    <figure>
-        <img src="images/tryVersionText.png" alt="">
-    </figure>
-    <button type="button" class="btn tryVersion">Probeer nu gratis voor een maand!</button>
 </section>
 <footer class="footer">
     <div>

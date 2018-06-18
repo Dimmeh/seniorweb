@@ -102,11 +102,16 @@ span.btn{
     max-width: 90% !important;
 
 }
-.col-4.dummyCol{
+.col-2.dummyCol{
     display: none;
 }
 .container.slider{
     background-color: #d9f0ed;
+    height: 390px;
+}
+
+.container.slider figure{
+    margin-bottom:0;
 }
 
 .container.slider .content{
@@ -114,14 +119,25 @@ span.btn{
     padding: 1em 4% 1em 1em;
 }
 
+.container.slider .content h2{
+
+    margin-top: 22%;
+}
+
 .list-group{
     position: absolute!important;
-    top:0;
+    top: .75rem;
 }
 
 .fixed{
     position: fixed!important;
     top: 0;
+    z-index: 99;
+}
+
+.absolute{
+    position: absolute !important;
+    bottom: 16%;
     z-index: 99;
 }
 
@@ -144,8 +160,13 @@ nav .footer {
     z-index: 100;
 }
 
+.sideMenuItem{
+    background: #d9f0ed;
+    padding:1em;
+}
+
 .sideMenuItem.active{
-    background: #000;
+    background: #0e8b7a;
     color: white;
 }
 
@@ -249,6 +270,10 @@ section.sectionSearch h1 {
     margin-bottom: 1.75em;
 }
 
+.memberButtons{
+    margin-top: 1em;
+}
+
 .memberBtn.orangeTrans{
     border:2px solid #fa752b;
     color: #fa752b!important;
@@ -274,6 +299,14 @@ footer .col-12{
     margin-bottom: 0!important;
 }
 
-/*footer .col-12 p{*/
-    /*text-align: center;*/
-/*}*/
+section#content {
+    margin-bottom: 4em;
+}
+
+.bd-example p{
+    margin-bottom:1em;
+}
+
+.checkListMembership p{
+    margin:0;
+}
