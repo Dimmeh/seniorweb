@@ -113,3 +113,12 @@ $(document).ready(function () {
     }
 });
 
+function myFunction() {
+    $(".containerMenu")[0].classList.toggle("change");
+    if($(".containerMenu").hasClass("change")){
+        $('.textMenu').text('Sluiten');
+    }
+    else{
+        $('.textMenu').text('Menu');
+    }
+}

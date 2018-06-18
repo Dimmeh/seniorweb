@@ -27,543 +27,196 @@
 <body class="" data-registered="false" data-watermark="">
 <!-- Google Tag Manager (noscript) -->
 <!--<noscript>-->
-    <!--<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VGWMR"-->
-            <!--height="0" width="0" style="display:none;visibility:hidden"></iframe>-->
+<!--<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VGWMR"-->
+<!--height="0" width="0" style="display:none;visibility:hidden"></iframe>-->
 <!--</noscript>-->
 <!-- End Google Tag Manager (noscript) -->	<div id="notification-bar"></div>
 
 <header id="top">
-    <form class="" id="AzureSearchFormHeader">
-        <div id="searchpanel" class="searchpanel searchpanel-header">
-        <input id="site-search-text" type="text" name="searchstring" placeholder="Typ hier wat u zoekt op onze website" dir="ltr" autocomplete="off" spellcheck="false">
-        <a id="site-search-btn" class="submit btn blue">Zoeken</a>
-        <div class="searchIcon">
-            <i class="fas fa-search"></i>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <a href="#" id="logo" class="default">
+                    <svg viewBox="0 0 180 83" width="180" height="83">
+                        <image xlink:href="https://www.seniorweb.nl/content/images/logo.svg" src="https://www.seniorweb.nl/content/images/logo.png" width="180" height="83"></image>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-7"></div>
+            <div class="col-2">
+                <span class="hamburgMenu" onclick="myFunction()" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <span class="textMenu">
+                            Menu
+                    </span>
+                    <span class="containerMenu">
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                        <span class="bar3"></span>
+                    </span>
+                </span>
+            </div>
         </div>
-    </div>
-    </form>
-    <a href="#" id="menutrigger" class="btn teal icon menu not_on_large">Menu</a>
-    <a href="#" id="searchtrigger" class="btn blue icon search after not_on_large">Zoek</a>
-    <a href="#" id="logo" class="default">
-        <svg viewBox="0 0 180 83" width="180" height="83">
-            <image xlink:href="https://www.seniorweb.nl/content/images/logo.svg" src="https://www.seniorweb.nl/content/images/logo.png" width="180" height="83"></image>
-        </svg>
-    </a>
-    <div id="toplinks" class="only_on_large">
-        <i class="fas fa-lock"></i>
-        <a class="login" href="#">Inloggen</a>
-        <a href="#">Mijn SeniorWeb</a>
-        <a href="#">Contact</a>
-        <a href="#">Over SeniorWeb</a>
     </div>
 </header>
 
+
 <nav>
     <div id="mainnav-wrapper">
-        <ul class="mainnav">
-            <li class="duplicate icon login">
-                <a href="#">Inloggen</a>
-            </li>
-            <li class="icon home">
-                <a href="#">Home</a>
-            </li>
-            <li class="hassubmenu icon themes hidesub">
-                <a href="#">Tips &amp; Uitleg</a>
-                <ul>
-                    <li>
-                        <a href="#">Tips &amp; Uitleg overzicht</a>
-                    </li>                                                <li>
-                    <a href="#">Internet</a>
-                </li>                                                <li>
-                    <a href="#">E-mail</a>
-                </li>                                                <li>
-                    <a href="#">Foto &amp; Video</a>
-                </li>                                                <li>
-                    <a href="#">Word &amp; Excel</a>
-                </li>                                                <li>
-                    <a href="#">Windows</a>
-                </li>                                                <li>
-                    <a href="#">Onderhoud</a>
-                </li>                                                <li>
-                    <a href="#">Veiligheid</a>
-                </li>                                                <li>
-                    <a href="#">Pc &amp; Randapparatuur</a>
-                </li>                                                <li>
-                    <a href="#">Apple</a>
-                </li>                                                <li>
-                    <a href="#">Tablet &amp; Smartphone</a>
-                </li>                                                <li>
-                    <a href="#">Computerkiezer</a>
-                </li>                                                <li>
-                    <a href="#">Fotowedstrijd</a>
-                </li>                                    </ul>
-            </li>
-            <li class="hassubmenu icon courses">
-                <a href="#">Cursussen</a>
-                <ul>
-                    <li>
-                        <a href="#">Cursussen overzicht</a>
-                    </li>                                                <li>
-                    <a href="#">Online Cursussen</a>
-                </li>                                                <li>
-                    <a href="">Computerles in de buurt</a>
-                </li>                                                <li>
-                    <a href="#">Computerboeken</a>
-                </li>                                                <li>
-                    <a href="#">Vragen over Cursussen</a>
-                </li>                                    </ul>
-            </li>
-            <li class="hassubmenu icon pchulp">
-                <a href="#">PCHulp</a>
-                <ul>
-                    <li>
-                        <a href="#">Stel uw vraag</a>
-                    </li>                                                <li>
-                    <a href="#">Mijn vragen</a>
-                </li>                                                <li>
-                    <a href="#">Algemene voorwaarden</a>
-                </li>                                                <li>
-                    <a href="#">Uitleg over PCHulp</a>
-                </li>                                    </ul>
-            </li>
-            <li class="hassubmenu icon clubs">
-                <a href="#">Clubs</a>
-                <ul>
-                    <li>
-                        <a href="#">Clubs overzicht</a>
-                    </li>                                                <li>
-                    <a href="#">Laatste berichten</a>
-                </li>                                                <li>
-                    <a href="#">Zoeken in Clubs</a>
-                </li>                                                <li>
-                    <a href="#">Vragen over Clubs</a>
-                </li>                                    </ul>
-            </li>
-            <li class="hassubmenu icon webshop">
-                <a href="#">Webwinkel</a>
-                <ul>
-                    <li>
-                        <a href="#">Webwinkel overzicht</a>
-                    </li>                                                <li>
-                    <a href="#">Alle producten</a>
-                </li>                                                <li>
-                    <a href="#">Computerboeken</a>
-                </li>                                                <li>
-                    <a href="#">Accessoires</a>
-                </li>                                                <li>
-                    <a href="#">Mijn bestellingen</a>
-                </li>                                                <li>
-                    <a href="#">Vragen over de Webwinkel</a>
-                </li>                                                <li>
-                    <a href="#">Ledenkorting</a>
-                </li>                                    </ul>
-            </li>
-            <li class="current hassubmenu standout">
-                <a href="D:/xampp/htdocs/seniorweb/lidmaatschap.html">Lidmaatschap</a>
-                <ul>
-                    <li>
-                        <a href="#">Lidmaatschap overzicht</a>
-                    </li>                                                <li>
-                    <a href="#">Lid worden</a>
-                </li>                                                <li>
-                    <a href="#">Kennismaken</a>
-                </li>                                                <li>
-                    <a href="#">Cadeaulidmaatschap</a>
-                </li>                                                <li>
-                    <a href=#">Lid werft lid</a>
-                </li>                                    </ul>
-            </li>
-            <li class="duplicate hassubmenu profile">
-                <a href="#">Mijn SeniorWeb</a>
-                <ul>
-                    <li>
-                        <a href="#">Mijn gegevens overzicht</a>
-                    </li>                                                <li>
-                    <a href="#s">Mijn persoonsgegevens</a>
-                </li>                                                <li>
-                    <a href="#">Mijn inloggegevens</a>
-                </li>                                                <li>
-                    <a href="#">Mijn profiel</a>
-                </li>                                                <li>
-                    <a href="#">Mijn nieuwsbrieven</a>
-                </li>                                                <li>
-                    <a href="#">Mijn bestellingen</a>
-                </li>                                                <li>
-                    <a href="#">Mijn archief</a>
-                </li>                                                <li>
-                    <a href="#">Mijn ledendiensten</a>
-                </li>                                    </ul>
-            </li>
-            <li class="duplicate">
-                <a href="#">Contact &amp; Service</a>
-                <ul>
-                    <li>
-                        <a href="#">Contact &amp; Service</a>
-                    </li>                                                <li>
-                    <a href="#">Lid worden</a>
-                </li>                                                <li>
-                    <a href="#">Vragen over SeniorWeb</a>
-                </li>                                                <li>
-                    <a href="#">Adres &amp; Route</a>
-                </li>                                                <li>
-                    <a href="#">Nieuwsbrief</a>
-                </li>                                                <li>
-                    <a href="#">Enter-magazine</a>
-                </li>                                    </ul>
-            </li>
-            <li class="duplicate">
-                <a href="#">Over SeniorWeb</a>
-                <ul>
-                    <li>
-                        <a href="v">Over SeniorWeb</a>
-                    </li>                                                <li>
-                    <a href="#">Lidmaatschap</a>
-                </li>                                                <li>
-                    <a href="#">Uit de vereniging</a>
-                </li>                                                <li>
-                    <a href="#">Geschiedenis</a>
-                </li>                                                <li>
-                    <a href="#">Vrijwilligers</a>
-                </li>                                                <li>
-                    <a href="#">Leercentra</a>
-                </li>                                                <li>
-                    <a href="#">Ledenpanel</a>
-                </li>                                                <li>
-                    <a href="#">Pers</a>
-                </li>                                                <li>
-                    <a href="#">Organisatie</a>
-                </li>                                                <li>
-                    <a href="#">Adverteren</a>
-                </li>                                    </ul>
-            </li>
-        </ul>
+        <div class="collapse" id="collapseExample" style="width:100%;">
+            <footer class="footer">
+                <div style="background: #0e8b7a;">
+                    <section>
+                        <ul><li><a title="Tips &amp; Uitleg" class="h2" href="#">Tips &amp; Uitleg</a></li>
+                            <li><a title="Tips &amp; Uitleg overzicht" href="#">Overzicht</a></li>
+                            <li><a title="Internet" href="#">Internet</a></li>
+                            <li><a title="E-mail" href="#">E-mail</a></li>
+                            <li><a title="Foto &amp; Video" href="#">Foto &amp; Video</a></li>
+                            <li><a title="Word &amp; Excel" href="#">Word &amp; Excel</a></li>
+                            <li><a title="Windows" href="#">Windows</a></li>
+                            <li><a title="Onderhoud" href="#">Onderhoud</a></li>
+                            <li><a title="Veiligheid" href="#">Veiligheid</a></li>
+                            <li><a title="Pc &amp; Randapparatuur" href="#">Pc &amp; Randapparatuur</a></li>
+                            <li><a title="Apple" href="#">Apple</a></li>
+                            <li><a title="Tablet &amp; Smartphone" href="#">Tablet &amp; Smartphone</a></li>
+                            <li><a title="Computerkiezer" href="#">Computerkiezer</a></li>
+                            <li><a title="Fotowedstrijd" href="#">Fotowedstrijd</a></li>
+                        </ul>
+                        <ul>
+                            <li><a title="Cursussen" class="h2" href="#">Cursussen</a></li>
+                            <li><a title="Cursussen overzicht" href="#">Cursussen overzicht</a></li>
+                            <li><a title="Online Cursussen" href="#">Online Cursussen</a></li>
+                            <li><a title="Computerles in de buurt" href="#">Computerles in de buurt</a></li>
+                            <li><a title="Computerboeken" href="#">Computerboeken</a></li>
+                            <li><a title="Vragen over cursussen" href="#">Vragen over cursussen</a></li>
+                        </ul>
+                        <ul>
+                            <li><a title="Computerhulp" class="h2" href="#">Computerhulp</a></li>
+                            <li><a title="Stel uw vraag" href="#">Stel uw vraag</a></li>
+                            <li><a href="#" title="Per telefoon">Per telefoon</a></li>
+                            <li><a href="#" title="Via internet">Via internet</a></li>
+                            <li><a href="#" title="Aan huis">Aan huis</a></li>
+                            <li><a href="#" title="Computer-APK">Computer-APK</a></li>
+                            <li><a href="#" title="Veelgestelde vragen">Veelgestelde vragen</a></li>
+                            <li><a title="Mijn vragen" href="#">Mijn vragen</a></li>
+                            <li><a title="Uitleg" href="#">Uitleg</a></li>
+                        </ul>
+                        <ul>
+                            <li><a title="Clubs" class="h2" href="#">Clubs</a></li>
+                            <li><a title="Clubs overzicht" href="#">Clubsoverzicht</a></li>
+                            <li><a title="Laatste berichten" href=#">Laatste berichten</a></li>
+                            <li><a title="Zoeken in Clubs" href="#">Zoeken in Clubs</a></li>
+                            <li><a title="Vragen over Clubs" href="#">Vragen over Clubs</a></li>
+                            <li><a title="Mailgroepen" href="#">Mailgroepen</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li><a title="Webwinkel" class="h2" href="#">Webwinkel</a></li>
+                            <li><a title="Webwinkel overzicht" href="#">Webwinkel overzicht</a></li>
+                            <li><a title="Alle producten" href="#">Alle producten</a></li>
+                            <li><a title="Computerboeken" href="#">Computerboeken</a></li>
+                            <li><a title="Accessoires" href="#">Accessoires</a></li>
+                            <li><a title="Vragen over Webwinkel" href="#">Vragen over Webwinkel</a></li>
+                            <li><a title="Ledenkorting" href="#">Ledenkorting</a></li>
+                        </ul>
+                        <ul>
+                            <li><a title="Contact &amp; Service" class="h2" href="#">Contact &amp; Service</a></li>
+                            <li><a title="Contact" href="#">Contact</a></li>
+                            <li><a title="Vragen over SeniorWeb" href="#">Vragen over SeniorWeb</a></li>
+                            <li><a title="Adres &amp; Route" href="#">Adres &amp; Route</a></li>
+                            <li><a title="Nieuwsbrief" href="#">Nieuwsbrief</a></li>
+                            <li><a title="Enter-magazine" href="#">Enter-magazine</a></li>
+                        </ul>
+                        <ul>
+                            <li><a title="Over SeniorWeb" class="h2" href="#">Over SeniorWeb</a></li>
+                            <li><a title="Wat doet SeniorWeb" href="#">Wat doet SeniorWeb</a></li>
+                            <li><a title="Lidmaatschap" href="#">Lidmaatschap</a></li>
+                            <li><a title="Uit de vereniging" href="#">Uit de vereniging</a></li>
+                            <li><a title="Geschiedenis" href="#">Geschiedenis</a></li>
+                            <li><a title="Vrijwilligers" href="#">Vrijwilligers</a></li>
+                            <li><a title="Leercentra" href="#">Leercentra</a></li>
+                            <li><a title="Ledenpanel" href="#">Ledenpanel</a></li>
+                            <li><a title="Pers" href="#">Pers</a></li>
+                            <li><a title="Organisatie" href="#">Organisatie</a></li>
+                            <li><a title="Adverteren" href="#">Adverteren</a></li>
+                        </ul>
+                        <ul>
+                            <li><a title="Lidmaatschap" class="h2" href="/lidmaatschap">Lidmaatschap</a></li>
+                            <li><a href="#" title="Lidmaatschap overzicht">Lidmaatschap overzicht</a></li>
+                            <li><a title="Lid worden" href="#">Lid worden</a></li>
+                            <li><a title="Kennismaken" href="#">Kennismaken</a></li>
+                            <li><a href="#" title="Cadeaulidmaatschap">Cadeaulidmaatschap</a></li>
+                            <li><a title="Lid werft lid" href="#">Lid werft lid</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </footer>
+        </div>
     </div>
 </nav>
 
-
-<div class="visual-intro not-for-tablet  clear">
-    <a href="/#" class="img bg-center" style="background-image: url('https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Lidmaatschap/Algemene_websiteactie/Lid-worden 753x320.png?n=1743');"></a>
-
-    <div class="txt">
-        <a href="D:/xampp/htdocs/seniorweb/lidmaatschap.html">
-            <h2>Digitaal Fit met SeniorWeb</h2>
-            <p>Met de duidelijke uitleg en persoonlijke computerhulp van SeniorWeb blijft u digitaal fit. Word voor slechts € 31,- per kalenderjaar lid en ontvang een computerboek cadeau!</p>
-        </a>
-        <a href="D:/xampp/htdocs/seniorweb/lidmaatschap.html" class="btn orange">Ontdek het lidmaatschap</a>
-        <a href="#" class="underline no-wrap not_on_small" style="margin-left: 15px">Direct lid worden</a>
-    </div>
-</div>
-
-
-
-<div class="visual-intro for-tablet  clear">
-    <a href="#" class="img bg-center" style="background-image: url('https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Home/waaier_liggend_2017_openingsblok(1).png');"></a>
-
-    <div class="txt">
-        <a href="#">
-            <h2>Maak vrijblijvend kennis met SeniorWeb</h2>
-            <p>Ontvang eenmalig gratis het tijdschrift Enter.</p>
-        </a>
-        <a href="#"></a>
-        <a href="#" class="btn orange not_on_small">Meer informatie</a>&nbsp;
-        <a href="#" class="btn orange only_on_small">Meer info</a>
-    </div>
-</div>
-
-<section id="content" class="no-padding">
-    <div>
-
-
-
-
-
-        <section id="usp-ribbon" class="grid_12 not_on_small">
-            <h1>SeniorWeb</h1> <strong>biedt:</strong>
-            <ul>
-                <li class="icon misc check">
-                    <a href="#">Online computercursussen</a>    </li>
-                <li class="icon misc check">
-                    <a href="#">Computerles in de buurt</a>    </li>
-                <li class="icon misc check">
-                    <a href="#">Persoonlijke computerhulp</a>    </li>
-                <li class="icon misc check">
-                    <a href="#">Computertijdschrift 'Enter'</a>    </li>
-            </ul>
-        </section>
-
-        <section id="contact-info" class="grid_12 only_on_small">
-            <strong>Vragen?</strong>
-            <ul>
-                <li class="icon contact phone">
-                    <a href="tel:0302769965">030 - 276 99 65</a>    </li>
-                <li class="icon contact email">
-                    <a href="mailto:leden@seniorweb.nl">Stuur een mail</a>    </li>
-            </ul>
-        </section>
-
-        <section id="main-content">
-
-            <div class="highlights">
-
-                <h2 class="large title-news">Nieuws</h2>
-                <a href="#" class="item item-news-0">
-                    <img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Nieuws/0601-ios 10 250.jpg" alt="Nummers blokkeren komt naar de iPhone">
-                    <div class="text">
-                        <div class="title">Nummers blokkeren komt naar de iPhone</div>
-                        <p>Met iOS 12 krijgen iPhones de mogelijkheid om ongewenste
-                            telefoontjes…</p>
-                        <p class="hide">Met iOS 12 krijgen iPhones de mogelijkheid om ongewenste
-                            telefoontjes en sms’jes te blokkeren.
-
-                        </p>
-                        <span class="hide" style="color: #009EE3">Lees verder</span>
-                    </div>
-                </a>
-                <a href="#" class="item item-news-1">
-                    <img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Nieuws/060618bellen.png" alt="Bellen naar EU-land kost straks maximaal 19 cent per minuut">
-                    <div class="text">
-                        <div class="title">Bellen naar EU-land kost straks maximaal 19 cent per minuut</div>
-                        <p>De kosten voor bellen en sms'en naar een ander EU-land…</p>
-                        <p class="hide">De kosten voor bellen en sms'en naar een ander EU-land worden aan banden gelegd. De tarieven worden 19 cent per minuut voor bellen en 6 cent per minuut voor sms'en.</p>
-                        <span class="hide" style="color: #009EE3">Lees verder</span>
-                    </div>
-                </a>
-                <div class="link-container">
-                    <a href="#" class="linkbutton blue icon more">Meer nieuws</a>
-                </div>
-
-                <h2 class="large title-tips">Tips &amp; Uitleg</h2>
-                <a href="/#" class="item item-tips-0">
-                    <img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Thema/FotoVideo/Foto_bewerken/gf.png" alt="Google Foto&amp;#39;s opslaan op de pc">
-                    <div class="text">
-                        <div class="title">Google Foto's opslaan op de pc</div>
-                        <p>Google Foto's beheert online uw fotoverzameling. Maar…</p>
-                        <p class="hide">Google Foto's beheert online uw fotoverzameling. Maar hoe bewaart u één of meer foto's op de pc?</p>
-                        <span class="hide" style="color: #009EE3">Lees verder</span>
-                    </div>
-                </a>
-                <a href="#" class="item item-tips-1">
-                    <img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Thema/Windows/Windows_10/Vaak_bezocht_in_Verkenner.png" alt="Vaak bezochte plekken in de Verkenner (Windows 10)">
-                    <div class="text">
-                        <div class="title">Vaak bezochte plekken in de Verkenner (Windows 10)</div>
-                        <p>Uit welke mappen bent u niet weg te slaan? De Verkenner…</p>
-                        <p class="hide">Uit welke mappen bent u niet weg te slaan? De Verkenner van Windows 10 presenteert de vaak bezochte plaatsen.</p>
-                        <span class="hide" style="color: #009EE3">Lees verder</span>
-                    </div>
-                </a>
-                <div class="link-container">
-                    <a href="#" class="linkbutton blue icon more">Meer artikelen en tips</a>
-                </div>
-            </div>
-
-            <section id="featured-tips" class="not_on_medium">
-                <h2 class="large">Snel naar</h2>
-                <a href="#" class="btn blue icon phishing" data-snelnaarid="1" data-snelnaarnaam="Phishingchecker"><span>Phishingchecker</span>
-                </a>
-                <a href="#" class="btn blue icon site courses" data-snelnaarid="2" data-snelnaarnaam="Cursussen"><span>Cursussen</span>
-                </a>
-                <a href="#" class="btn blue icon enter online" data-snelnaarid="3" data-snelnaarnaam="Computerwoordenboek"><span>Computerwoordenboek</span>
-                </a>
-                <a href="#" class="btn blue icon site photo-contest" data-snelnaarid="4" data-snelnaarnaam="Fotowedstrijd"><span>Fotowedstrijd</span>
-                </a>
-                <a href="#" class="btn blue icon misc sticky" data-snelnaarid="5" data-snelnaarnaam="Handige links"><span>Handige links</span>
-                </a>
-
-            </section>
-        </section>
-
-
-
-        <section id="usp" class="clear">
-            <h2 class="large">SeniorWeb houdt u digitaal fit</h2>
-            <div class="item">
-                <strong>Exclusieve artikelen, tips en informatie</strong>
-                <span class="clear">
-						<img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Home/tips2.png?n=8359" alt="">
-					4x per jaar ontvangt u het leden-tijdschrift  <i>Enter</i>  met praktische computerartikelen, tips en informatie.
-				</span>
-                <a href="#" class="linkbutton orange icon more">Meer over Enter</a>
-            </div>
-            <div class="item">
-                <strong>Altijd persoonlijke computerhulp</strong>
-                <span class="clear">
-						<img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Home/computerhulp2.png?n=3181" alt="">
-					<p>Onze 370 deskundige vrijwilligers helpen u graag bij al uw vragen over tablet, pc of smartphone. Ook bij u thuis.</p>
-				</span>
-                <a href="#" class="linkbutton orange icon more">Meer over computerhulp</a>
-            </div>
-            <div class="item">
-                <strong>Computercursussen online en in de buurt</strong>
-                <span class="clear">
-						<img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Home/computercursussen2.png?n=786" alt="">
-					Leer stapsgewijs met duidelijke instructies en begeleiding. Volg online een cursus of bij u in de buurt.
-				</span>
-                <a href="#" class="linkbutton orange icon more">Meer over cursussen</a>
-            </div>
-        </section>
-
-        <section id="featured-tips-duplicate" class="only_on_medium">
-            <h2 class="large">Snel naar</h2>
-            <a href="#" class="btn blue icon phishing" data-snelnaarid="1" data-snelnaarnaam="Phishingchecker"><span>Phishingchecker</span>
-            </a>
-            <a href="#" class="btn blue icon site courses" data-snelnaarid="2" data-snelnaarnaam="Cursussen"><span>Cursussen</span>
-            </a>
-            <a href="#" class="btn blue icon enter online" data-snelnaarid="3" data-snelnaarnaam="Computerwoordenboek"><span>Computerwoordenboek</span>
-            </a>
-            <a href="/#" class="btn blue icon site photo-contest" data-snelnaarid="4" data-snelnaarnaam="Fotowedstrijd"><span>Fotowedstrijd</span>
-            </a>
-            <a href="#" class="btn blue icon misc sticky" data-snelnaarid="5" data-snelnaarnaam="Handige links"><span>Handige links</span>
-            </a>
-        </section>
-
-
-        <section id="discover-sw" class="clear">
-            <div class="item">
-                <strong>Bezoek de 50PlusBeurs met korting</strong>
-                <span>
-							<img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Home/50PlusBeursHomeAdv.png" alt="">
-						<p>Bezoek van 18 tot en met 22 september de 50PlusBeurs in de Jaarbeurs te Utrecht. Bestel uw kaarten met korting, exclusief voor SeniorWeb-leden!</p>
-					</span>
-                <a href="#" class="linkbutton icon more blue" data-eec-view="promotion" data-eec-id="00011" data-eec-promotion="Homepage bottom visual 1" data-eec-creative="Bezoek de 50PlusBeurs met korting">Meer informatie</a>
-                <span class="atorial blue">Advertorial</span>
-            </div>
-            <div class="item">
-                <strong>SeniorWeb Fotowedstrijd</strong>
-                <span>
-							<img src="https://www.seniorweb.nl/uploadedImages/wwwseniorwebnl/Home/Fotowedstrijd_Uitvindingen.PNG" alt="">
-						<p>We hebben weer een nieuw thema voor de Fotowedstrijd: Uitvindingen. Wilt u meedoen? U hebt tot en met 11 juli om uw foto's in te sturen!</p>
-					</span>
-                <a href="#" class="linkbutton icon more orange" data-eec-view="promotion" data-eec-id="00012" data-eec-promotion="Homepage bottom visual 2" data-eec-creative="SeniorWeb Fotowedstrijd">Naar de Fotowedstrijd</a>
-                <span class="members-only orange">Voor leden</span>
-            </div>
-            <div id="testimonial-home">
-                <div class="photo">
-                    <img src="https://www.seniorweb.nl/uploadedImages/www.seniorweb.nl/Over_SeniorWeb/Uit_de_vereniging/Ambassadeurs(1)/Erika_Damhuis_250x250.png?n=6271" alt="Erika Damhuis">
-                </div>
-                <div class="quote">"SeniorWeb geeft me het gevoel dat ouderen ook nog prima meekunnen in de digitale wereld."</div>
-                <div class="quoted-by">
-                    <strong>Erika Damhuis</strong>
-                    <span>SeniorWeb-lid</span>
-                </div>
-                <a href="#" class="linkbutton teal icon more reversed clear">Lees verder</a>
-            </div>
-        </section>
-
-
+<section class="sectionSlider">
+    <div class="customContainer">
+        <h1>Voordelen lidmaatschap</h1>
+        <p class="addMarginOnP">Word voor slechts € 31,- per kalenderjaar (prijs 2018) lid van SeniorWeb en ontvang het boek Veilig en vertrouwd online cadeau.
+        Als lid profiteert u van de volgende voordelen</p>
+        <p><img class="check-icon" src="images/check-icon.png" alt=""> Ongelimiteerde vragen stellen via de pc, telefoon of aan huis</p>
+        <p><img class="check-icon" src="images/check-icon.png" alt="">4 x per jaar exclusieve informatie en tips Enter</p>
+        <p><img class="check-icon" src="images/check-icon.png" alt="">Cursussen over populaire onderwerpen (online & in de buurt)</p>
+        <p><img class="check-icon" src="images/check-icon.png" alt="">Wekelijks informatieve nieuwsbrieven</p>
+        <p><img class="check-icon" src="images/check-icon.png" alt="">Extra voordelige computerboeken en accessoires</p>
+        <p class="addMarginOnP"><img class="check-icon" src="images/check-icon.png" alt="">Deskundige controle van verdachte mails</p>
+        <div class="container-fluid memberButtons no-padding-left">
+            <button type="button" class="btn orange memberBtn">Word lid</button>
+            <button type="button" class="btn orangeTrans memberBtn">Gratis proefversie</button>
+        </div>
     </div>
 </section>
-<section id="cta-balk-wrapper">
-    <div class="clear cta-balk blue white-text ">
-        <div class="text-wrapper">
-            Meld u nu aan voor de gratis SeniorWeb Nieuwsbrief en ontvang wekelijks het laatste computernieuws en de handigste tips
-        </div>
-        <div class="button-wrapper ">
-            <a href="#" class="btn orange ">Aanmelden</a>
-        </div>
-    </div>
+<section class="sectionSearch">
+    <h1>Waar bent u naar op zoek?</h1>
+    <figure>
+        <img src="images/searchField.png" alt="">
+    </figure>
+</section>
+<section class="sectionNews">
+    <figure>
+        <img src="images/newsItems.png" alt="">
+    </figure>
+</section>
+<section class="sectionTryVersion">
+    <figure>
+        <img src="images/tryVersionText.png" alt="">
+    </figure>
+    <button type="button" class="btn tryVersion">Probeer nu gratis voor een maand!</button>
 </section>
 <footer class="footer">
     <div>
-        <section>
-            <ul><li><a title="Tips &amp; Uitleg" class="h2" href="#">Tips &amp; Uitleg</a></li>
-                <li><a title="Tips &amp; Uitleg overzicht" href="#">Overzicht</a></li>
-                <li><a title="Internet" href="#">Internet</a></li>
-                <li><a title="E-mail" href="#">E-mail</a></li>
-                <li><a title="Foto &amp; Video" href="#">Foto &amp; Video</a></li>
-                <li><a title="Word &amp; Excel" href="#">Word &amp; Excel</a></li>
-                <li><a title="Windows" href="#">Windows</a></li>
-                <li><a title="Onderhoud" href="#">Onderhoud</a></li>
-                <li><a title="Veiligheid" href="#">Veiligheid</a></li>
-                <li><a title="Pc &amp; Randapparatuur" href="#">Pc &amp; Randapparatuur</a></li>
-                <li><a title="Apple" href="#">Apple</a></li>
-                <li><a title="Tablet &amp; Smartphone" href="#">Tablet &amp; Smartphone</a></li>
-                <li><a title="Computerkiezer" href="#">Computerkiezer</a></li>
-                <li><a title="Fotowedstrijd" href="#">Fotowedstrijd</a></li>
-            </ul>
-            <ul>
-                <li><a title="Cursussen" class="h2" href="#">Cursussen</a></li>
-                <li><a title="Cursussen overzicht" href="#">Cursussen overzicht</a></li>
-                <li><a title="Online Cursussen" href="#">Online Cursussen</a></li>
-                <li><a title="Computerles in de buurt" href="#">Computerles in de buurt</a></li>
-                <li><a title="Computerboeken" href="#">Computerboeken</a></li>
-                <li><a title="Vragen over cursussen" href="#">Vragen over cursussen</a></li>
-            </ul>
-            <ul>
-                <li><a title="Computerhulp" class="h2" href="#">Computerhulp</a></li>
-                <li><a title="Stel uw vraag" href="#">Stel uw vraag</a></li>
-                <li><a href="#" title="Per telefoon">Per telefoon</a></li>
-                <li><a href="#" title="Via internet">Via internet</a></li>
-                <li><a href="#" title="Aan huis">Aan huis</a></li>
-                <li><a href="#" title="Computer-APK">Computer-APK</a></li>
-                <li><a href="#" title="Veelgestelde vragen">Veelgestelde vragen</a></li>
-                <li><a title="Mijn vragen" href="#">Mijn vragen</a></li>
-                <li><a title="Uitleg" href="#">Uitleg</a></li>
-            </ul>
-            <ul>
-                <li><a title="Clubs" class="h2" href="#">Clubs</a></li>
-                <li><a title="Clubs overzicht" href="#">Clubsoverzicht</a></li>
-                <li><a title="Laatste berichten" href=#">Laatste berichten</a></li>
-                <li><a title="Zoeken in Clubs" href="#">Zoeken in Clubs</a></li>
-                <li><a title="Vragen over Clubs" href="#">Vragen over Clubs</a></li>
-                <li><a title="Mailgroepen" href="#">Mailgroepen</a></li>
-            </ul>
-            <ul>
-                <li><a title="Webwinkel" class="h2" href="#">Webwinkel</a></li>
-                <li><a title="Webwinkel overzicht" href="#">Webwinkel overzicht</a></li>
-                <li><a title="Alle producten" href="#">Alle producten</a></li>
-                <li><a title="Computerboeken" href="#">Computerboeken</a></li>
-                <li><a title="Accessoires" href="#">Accessoires</a></li>
-                <li><a title="Vragen over Webwinkel" href="#">Vragen over Webwinkel</a></li>
-                <li><a title="Ledenkorting" href="#">Ledenkorting</a></li>
-            </ul>
-        </section>
-        <section>
-            <ul>
-                <li><a title="Contact &amp; Service" class="h2" href="#">Contact &amp; Service</a></li>
-                <li><a title="Contact" href="#">Contact</a></li>
-                <li><a title="Vragen over SeniorWeb" href="#">Vragen over SeniorWeb</a></li>
-                <li><a title="Adres &amp; Route" href="#">Adres &amp; Route</a></li>
-                <li><a title="Nieuwsbrief" href="#">Nieuwsbrief</a></li>
-                <li><a title="Enter-magazine" href="#">Enter-magazine</a></li>
-            </ul>
-            <ul>
-                <li><a title="Over SeniorWeb" class="h2" href="#">Over SeniorWeb</a></li>
-                <li><a title="Wat doet SeniorWeb" href="#">Wat doet SeniorWeb</a></li>
-                <li><a title="Lidmaatschap" href="#">Lidmaatschap</a></li>
-                <li><a title="Uit de vereniging" href="#">Uit de vereniging</a></li>
-                <li><a title="Geschiedenis" href="#">Geschiedenis</a></li>
-                <li><a title="Vrijwilligers" href="#">Vrijwilligers</a></li>
-                <li><a title="Leercentra" href="#">Leercentra</a></li>
-                <li><a title="Ledenpanel" href="#">Ledenpanel</a></li>
-                <li><a title="Pers" href="#">Pers</a></li>
-                <li><a title="Organisatie" href="#">Organisatie</a></li>
-                <li><a title="Adverteren" href="#">Adverteren</a></li>
-            </ul>
-            <ul>
-                <li><a title="Lidmaatschap" class="h2" href="D:/xampp/htdocs/seniorweb/lidmaatschap.html">Lidmaatschap</a></li>
-                <li><a href="#" title="Lidmaatschap overzicht">Lidmaatschap overzicht</a></li>
-                <li><a title="Lid worden" href="#">Lid worden</a></li>
-                <li><a title="Kennismaken" href="#">Kennismaken</a></li>
-                <li><a href="#" title="Cadeaulidmaatschap">Cadeaulidmaatschap</a></li>
-                <li><a title="Lid werft lid" href="#">Lid werft lid</a></li>
-            </ul>
-            <ul class="follow">
-                <li><a title="Volg ons" class="h2" href="/">Volg ons</a></li>
-                <li class="icon social newsletter"><a title="Aanmelden Nieuwsbrief" id="newsletter" href="#">Aanmelden Nieuwsbrief</a></li>
-                <li class="icon social facebook"><a title="Volg ons op Facebook" id="facebook" href="https://www.facebook.com/seniorweb" target="_blank">Volg ons op Facebook</a></li>
-                <li class="icon social twitter"><a title="Volg ons op Twitter" id="twitter" href="https://twitter.com/SeniorWebNL" target="_blank">Volg ons op Twitter</a></li>
-                <li class="icon social youtube"><a title="Volg ons op YouTube" id="youtube" href="https://www.youtube.com/user/SeniorWebTube" target="_blank">Volg ons op YouTube</a></li>
-            </ul>
-        </section>
-        <div class="footerlinks">
-            <span class="copyright">2018 SeniorWeb</span>
-            <ul class="ltr">
-                <li><a href="#">Privacy- en cookiebeleid</a></li>
-                <li><a href="#">Algemene voorwaarden</a></li>
-                <li><a href="#">Colofon</a></li>
-                <li><a href="#">Disclaimer</a></li>
-                <li><a href="#">English</a></li>
-            </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4"><p><b>Snel naar</b></p></div>
+                <div class="col-4"></div>
+                <div class="col-4"><p><b>Volg ons</b></p></div>
+                <div class="w-100"></div>
+                <div class="col-4">
+                    <p>Tips & Uitleg</p>
+                    <p>Cursussen</p>
+                    <p>Computerhulp</p>
+                </div>
+                <div class="col-4">
+                    <p>Clubs</p>
+                    <p>Over Seniorweb</p>
+                    <p>Contact & Service</p>
+                </div>
+                <div class="col-4">
+                    <p><img src="images/icon_mail.png" alt="">Aanmelden Nieuwsbrief</p>
+                    <p><img src="images/icon_facebook.png" alt="">Volg ons op Facebook</p>
+                    <p><img src="images/icon_twitter.png" alt="">Volg ons op Twitter</p>
+                    <p><img src="images/icon_youtube.png" alt="">Volg ons op YouTube</p>
+                </div>
+                <div class="col-12 border-top">
+                    <p>2018 SeniorWeb</p>
+                </div>
+            </div>
         </div>
     </div>
 </footer>

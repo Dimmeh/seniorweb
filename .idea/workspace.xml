@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3ddaca-4bc5-4d30-83ad-e7251235f584" name="Default" comment="" />
+    <list default="true" id="0b3ddaca-4bc5-4d30-83ad-e7251235f584" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concept_two/font.css" afterPath="$PROJECT_DIR$/concept_two/font.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concept_two/index.html" afterPath="$PROJECT_DIR$/concept_two/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concept_two/js/main.js" afterPath="$PROJECT_DIR$/concept_two/js/main.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,59 +18,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="lidmaatschap.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/concept_three/lidmaatschap.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="font.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/concept_three/font.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/concept_three/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="715">
-                  <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="font.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/concept_three/font.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="757">
-                  <caret line="278" column="10" lean-forward="false" selection-start-line="278" selection-start-column="10" selection-end-line="278" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="font.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concept_three/font.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="278" column="15" lean-forward="true" selection-start-line="278" selection-start-column="15" selection-end-line="278" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/concept_two/font.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="273" column="31" lean-forward="false" selection-start-line="273" selection-start-column="31" selection-end-line="273" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concept_two/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="215" column="45" lean-forward="false" selection-start-line="215" selection-start-column="45" selection-end-line="215" selection-end-column="45" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lidmaatschap.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concept_two/lidmaatschap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2667">
+              <caret line="409" column="35" lean-forward="false" selection-start-line="409" selection-start-column="35" selection-end-line="409" selection-end-column="35" />
+              <folding>
+                <element signature="e#13867#13873#0" expanded="true" />
+                <element signature="e#14016#14022#0" expanded="true" />
+                <element signature="e#14607#14613#0" expanded="true" />
+                <element signature="e#19702#19708#0" expanded="true" />
+                <element signature="e#21556#21562#0" expanded="true" />
+                <element signature="e#21564#21570#0" expanded="true" />
+                <element signature="e#23222#23227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concept_three/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2015">
+              <caret line="249" column="15" lean-forward="false" selection-start-line="249" selection-start-column="12" selection-end-line="249" selection-end-column="15" />
+              <folding>
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concept_three/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concept_two/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="778">
+              <caret line="123" column="1" lean-forward="false" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,10 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ico</find>
-      <find>*{</find>
-      <find>font-family:&quot;</find>
-      <find>/Content/Images/logo.svg</find>
       <find>/Content</find>
       <find>nr-1071</find>
       <find>hot</find>
@@ -102,11 +136,17 @@
       <find>no</find>
       <find>data-toggle=&quot;collapse&quot;</find>
       <find>list-group-item list-group-item-action</find>
-      <find>footer</find>
       <find>ham</find>
       <find>container</find>
       <find>Gree</find>
       <find>list-group-item{</find>
+      <find>Word voor</find>
+      <find>Word voor</find>
+      <find>slider</find>
+      <find>orange</find>
+      <find>p{</find>
+      <find>footer</find>
+      <find>&lt;p&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>https://www.seniorweb.nl/Content/Images/logo.svg</replace>
@@ -116,7 +156,11 @@
       <replace>orange</replace>
       <replace>$PROJECT_DIR$/lidmaatschap.html</replace>
       <replace>sideMenuItem</replace>
+      <replace>&lt;p&gt;&lt;img class=&quot;check-icon&quot; src=&quot;images/check-icon.png&quot; alt=&quot;&quot;&gt;</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,12 +178,13 @@
         <option value="$PROJECT_DIR$/version_one/font.css" />
         <option value="$PROJECT_DIR$/version_one/index.html" />
         <option value="$PROJECT_DIR$/concept_one/font.css" />
-        <option value="$PROJECT_DIR$/concept_two/font.css" />
         <option value="$PROJECT_DIR$/concept_two/lidmaatschap.html" />
-        <option value="$PROJECT_DIR$/concept_two/js/main.js" />
         <option value="$PROJECT_DIR$/concept_three/js/main.js" />
-        <option value="$PROJECT_DIR$/concept_three/lidmaatschap.html" />
         <option value="$PROJECT_DIR$/concept_three/font.css" />
+        <option value="$PROJECT_DIR$/concept_two/js/main.js" />
+        <option value="$PROJECT_DIR$/concept_three/lidmaatschap.html" />
+        <option value="$PROJECT_DIR$/concept_two/index.html" />
+        <option value="$PROJECT_DIR$/concept_two/font.css" />
       </list>
     </option>
   </component>
@@ -149,10 +194,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="976" />
+    <option name="width" value="987" />
     <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -169,6 +217,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,14 +235,29 @@
               <item name="seniorweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="seniorweb" type="462c0819:PsiDirectoryNode" />
               <item name="concept_three" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seniorweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seniorweb" type="462c0819:PsiDirectoryNode" />
+              <item name="concept_three" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seniorweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seniorweb" type="462c0819:PsiDirectoryNode" />
+              <item name="concept_two" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seniorweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seniorweb" type="462c0819:PsiDirectoryNode" />
+              <item name="concept_two" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,19 +267,20 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reflectaLogbook" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dimwe\Documents\GitHub\seniorweb\concept_two\images" />
+      <recent name="D:\xampp\htdocs\seniorweb" />
+      <recent name="D:\xampp\htdocs\seniorweb\concept_one" />
+      <recent name="D:\xampp\htdocs\seniorweb\version_one" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\seniorweb\concept_three\images" />
       <recent name="D:\xampp\htdocs\seniorweb\concept_two" />
       <recent name="D:\xampp\htdocs\seniorweb" />
       <recent name="C:\xampp\htdocs\seniorweb\json" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\seniorweb" />
-      <recent name="D:\xampp\htdocs\seniorweb\concept_one" />
-      <recent name="D:\xampp\htdocs\seniorweb\version_one" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,26 +322,26 @@
       <workItem from="1528102526917" duration="18000" />
       <workItem from="1528717712992" duration="5427000" />
       <workItem from="1528972028209" duration="19977000" />
+      <workItem from="1529321403146" duration="6826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55054000" />
+    <option name="totallyTimeSpent" value="61880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16254036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16393442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -283,6 +349,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -292,18 +359,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16254036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33046287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +386,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/concept_two/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concept_two/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2058">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/concept_two/lidmaatschap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -331,13 +414,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -370,13 +446,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -409,52 +478,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept_two/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept_two/font.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2058">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept_two/lidmaatschap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#13867#13873#0" expanded="true" />
-            <element signature="e#14016#14022#0" expanded="true" />
-            <element signature="e#14607#14613#0" expanded="true" />
-            <element signature="e#19702#19708#0" expanded="true" />
-            <element signature="e#21556#21562#0" expanded="true" />
-            <element signature="e#21564#21570#0" expanded="true" />
-            <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -487,13 +510,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -526,13 +542,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -565,13 +574,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -604,13 +606,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -635,13 +630,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -666,13 +654,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -697,13 +678,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -734,13 +708,6 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
         </state>
       </provider>
@@ -811,39 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concept_two/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="252" column="18" lean-forward="false" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
-          <folding>
-            <element signature="e#10980#10985#0" expanded="false" />
-            <element signature="e#11088#11093#0" expanded="false" />
-            <element signature="e#11475#11480#0" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#14543#14549#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#div#0;n#section#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#a#1;n#div#0;n#section#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#17676#17681#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#a#2;n#div#0;n#section#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#a#3;n#div#0;n#section#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#25572#25577#0" expanded="false" />
-            <element signature="e#25873#25878#0" expanded="false" />
-            <element signature="e#25956#25961#0" expanded="false" />
-            <element signature="e#26249#26254#0" expanded="false" />
-            <element signature="e#26411#26416#0" expanded="false" />
-            <element signature="e#29130#29135#0" expanded="false" />
-            <element signature="e#29375#29380#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concept_one/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="516" column="17" lean-forward="false" selection-start-line="516" selection-start-column="17" selection-end-line="516" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,10 +793,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/concept_three/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concept_two/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="123" column="1" lean-forward="false" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concept_three/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2015">
+          <caret line="249" column="15" lean-forward="false" selection-start-line="249" selection-start-column="12" selection-end-line="249" selection-end-column="15" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concept_three/lidmaatschap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="379" column="35" lean-forward="false" selection-start-line="379" selection-start-column="35" selection-end-line="379" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#20042#20048#0" expanded="true" />
+            <element signature="e#22542#22548#0" expanded="true" />
+            <element signature="e#22550#22556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/concept_two/lidmaatschap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="293" column="95" lean-forward="false" selection-start-line="293" selection-start-column="95" selection-end-line="293" selection-end-column="95" />
+        <state relative-caret-position="2667">
+          <caret line="409" column="35" lean-forward="false" selection-start-line="409" selection-start-column="35" selection-end-line="409" selection-end-column="35" />
           <folding>
             <element signature="e#13867#13873#0" expanded="true" />
             <element signature="e#14016#14022#0" expanded="true" />
@@ -867,57 +845,35 @@
             <element signature="e#21556#21562#0" expanded="true" />
             <element signature="e#21564#21570#0" expanded="true" />
             <element signature="e#23222#23227#0" expanded="true" />
-            <marker date="1528977849898" expanded="false" signature="23118:29905" ph="..." />
-            <marker date="1528977849898" expanded="false" signature="23523:23528" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23606:23611" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="23899:23904" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="24061:24066" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="26780:26785" ph="&amp;" />
-            <marker date="1528977849898" expanded="false" signature="27025:27030" ph="&amp;" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept_two/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="109" column="53" lean-forward="false" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept_two/font.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concept_three/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/concept_three/font.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+        <state relative-caret-position="633">
+          <caret line="278" column="15" lean-forward="true" selection-start-line="278" selection-start-column="15" selection-end-line="278" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concept_three/lidmaatschap.html">
+    <entry file="file://$PROJECT_DIR$/concept_two/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="215" column="45" lean-forward="false" selection-start-line="215" selection-start-column="45" selection-end-line="215" selection-end-column="45" />
           <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concept_two/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="273" column="31" lean-forward="false" selection-start-line="273" selection-start-column="31" selection-end-line="273" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
