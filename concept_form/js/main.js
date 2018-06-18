@@ -27,6 +27,8 @@ function formContinue(step){
             $("#item-3 a").addClass("complete");
             $("#stepThreeRight").addClass("active");
             $("#stepFourLeft").addClass("active");
+            $("#item-4 a").addClass("active");
+            $("#item-4 a").removeClass("disabled");
             $("#item-4").removeClass("disabled");
             $("#contactTab").removeClass("show active");
             $("#paymentTab").addClass("show active");
